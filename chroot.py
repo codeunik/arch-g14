@@ -69,7 +69,7 @@ RuntimeMaxUse=30M
 
 # swapfile
 if not os.path.exists(f'/home/{username}/swapfile'):
-    exec_cmd(f'dd if=/dev/zero of=/home/{username}/swapfile bs=1M count={16*1024} status=progress')
+    exec_cmd(f'dd if=/dev/zero of=/home/{username}/swapfile bs=1M count={swap_size*1024} status=progress')
     exec_cmd(f'chmod 600 /home/{username}/swapfile')
 exec_cmd(f'mkswap /home/{username}/swapfile')
 exec_cmd(f'swapon /home/{username}/swapfile')
