@@ -76,4 +76,6 @@ exec_cmd(f'swapon /home/{username}/swapfile')
 with open('/etc/fstab', 'a') as f:
     f.write(f'\n/home/{username}/swapfile none swap defaults 0 0')
 
+exec_cmd('echo "[ -f /opt/miniconda3/etc/profile.d/conda.sh ] && source /opt/miniconda3/etc/profile.d/conda.sh" >> ~/.bashrc') # to enable miniconda for current user
+# exec_cmd('sudo ln -s /opt/miniconda3/etc/profile.d/conda.sh /etc/profile.d/conda.sh') # to enable miniconda for all users
 exec_cmd("exit")
