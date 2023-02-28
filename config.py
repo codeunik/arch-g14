@@ -225,5 +225,6 @@ aur = [
     "mint-themes",
     "mint-y-icons",
     "texmacs-qt",
+    "cpupower-gui",
     # "x2goclient",
 ]
