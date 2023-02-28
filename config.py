@@ -9,6 +9,7 @@ def exec_cmd(cmd):
 removable = False
 format_home = False
 format_efi = False
+swap_size = 16 # GB
 efi = "/dev/nvme0n1p1"
 root = "/dev/nvme0n1p2"
 home = "/dev/nvme0n1p3"
