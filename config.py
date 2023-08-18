@@ -181,7 +181,17 @@ packages = [
 
     # doc tools
     # =========
-    "texlive-most",
+    "texlive-basic",
+    "texlive-latex",
+    "texlive-latexrecommended",
+    "texlive-latexextra",
+    "texlive-binextra",
+    "texlive-fontsrecommended",
+    "texlive-fontsextra",
+    "texlive-xetex",
+    "texlive-luatex",
+    "texlive-bibtexextra",
+    
     "pandoc",
     "calibre",
     "libreoffice-fresh", "libreoffice-extension-writer2latex",
@@ -216,10 +226,10 @@ packages = [
 
 aur = [
     "google-chrome",
+    "dropbox",
     "write_stylus",
     "spotify",
     "zoom",
-    "anki",
     "miniconda3",
     "visual-studio-code-bin",
     "jabref",
@@ -227,5 +237,6 @@ aur = [
     "mint-y-icons",
     "texmacs-qt",
     "cpupower-gui",
+    #"anki",
     # "x2goclient",
 ]
