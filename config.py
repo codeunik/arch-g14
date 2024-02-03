@@ -214,6 +214,7 @@ packages = [
     "gparted",
     "neofetch",
     "baobab",
+    "weston", # wayland compositor
     
     "acpid",
     "bluez",
