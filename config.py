@@ -239,6 +239,7 @@ aur = [
     "mint-y-icons",
     "texmacs-qt",
     "cpupower-gui",
+    # waydroid,
     #"anki",
     # "x2goclient",
 ]
